@@ -1,5 +1,13 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.margin-bottom5{
+	margin-bottom: 5px;
+	width: 40%;
+}
 
 .hero{
 	width: 100vw;
@@ -40,6 +48,7 @@ a{
 
 .sub-heading{
 	font-weight: bold;
+	text-decoration: underline;
 }
 
 .gradient-button {
@@ -101,4 +110,24 @@ display: flex;
 .scroll{
 	display: flex;
 	align-items: center;
+}
+
+
+.gps-tracked{
+	margin-top: 3em;
+	margin-left: 14vw;
+}
+
+
+.gps-par{
+	width: 40%;
+	margin-bottom: 1em;
+}
+
+
+.cost-effective{
+	margin-top: 3em;
+	margin-right: 14vw;
+	margin-left: 50vw;
+	text-align: left;
 }
