@@ -17,6 +17,11 @@ h1, h2{
 
 p, a{
 	font-family: karla;
+	text-decoration: none;
+}
+
+a, a:visited{
+	color: white;
 }
 
 
@@ -48,3 +53,8 @@ p, a{
 
 .gradient-button-1 {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%)}
 .gradient-button-1:hover { background-position: right center; }
+
+
+svg{
+	fill: white;
+}
