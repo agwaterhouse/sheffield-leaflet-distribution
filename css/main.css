@@ -11,12 +11,14 @@
   background-size: cover;
 }
 
-h1, h2{
+h1{
 	font-family: poppins;
+	font-size: 3em;
 }
 
 h2{
 	color: #fcbb6d;
+	font-family: poppins;
 }
 
 p, a{
@@ -76,4 +78,14 @@ svg{
 .hero-text{
 	margin-top: 20vh;
 	margin-left:14vw;
+}
+
+
+.hero-contact-details{
+display: flex;
+flex-direction: row;
+vertical-align: middle;
+margin-top: auto;
+
+
 }
