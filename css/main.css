@@ -68,9 +68,7 @@ a{
     border-radius: 15px;
     list-style: none;
     text-decoration: none;
-    margin-bottom: 3em;
 }
-
 .gradient-button-3:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
@@ -97,7 +95,7 @@ display: flex;
 	justify-content: flex-end;
 	padding-top: 1em;
 	margin-right: 2em;
-	font-size: 1.2em;
+	font-size: 1.6em;
 }
 
 .item{
@@ -158,4 +156,35 @@ margin-left: 2em;
 
 .cost-par{
 	margin-bottom: 1em;
+}
+
+
+.reviews{
+	text-align: center;
+	margin-top: 7em;
+	margin-bottom: 7em;
+}
+
+.reviews h2{
+	color:#d8727f;
+}
+
+.reviews img{
+width: 20em;
+}
+
+
+footer{
+	display: flex;
+	background-color: #e2cfcf;
+	text-align: center;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	justify-content: center;
+}
+
+
+.contact-details-footer{
+	display: flex;
+	flex-direction: column;
 }
