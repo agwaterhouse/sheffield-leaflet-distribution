@@ -180,11 +180,21 @@ footer{
 	text-align: center;
 	padding-top: 3em;
 	padding-bottom: 3em;
-	justify-content: center;
+	justify-content: space-around;
+	font-size: 1.2em;
 }
 
 
 .contact-details-footer{
 	display: flex;
 	flex-direction: column;
+}
+
+footer svg.item{
+	fill: #d8727f;
+}
+
+.email, .mobile{
+	display: flex;
+	align-items: center;
 }
