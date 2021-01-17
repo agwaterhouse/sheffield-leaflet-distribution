@@ -77,6 +77,10 @@ a{
 .gradient-button-3:hover { background-position: right center; }
 
 
+.hero-button{
+	margin-bottom: 3em;
+}
+
 svg{
 	fill: white;
 }
