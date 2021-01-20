@@ -188,6 +188,7 @@ footer{
 	padding-bottom: 3em;
 	justify-content: space-around;
 	font-size: 1.2em;
+	overflow: hidden;
 }
 
 
@@ -203,4 +204,74 @@ footer svg.item{
 .email, .mobile{
 	display: flex;
 	align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+
+.gps-tracked{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-right: 1em;
+	margin-left: 2em;
+	align-items: flex-start;
+	flex-direction: column-reverse;
+}
+
+.gps-text{
+	width: 90vw;
+}
+
+
+.gps-image{
+	margin-left: 0;
+	width: 90vw;
+	margin-top: 3em;
+}
+
+
+.cost-effective{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-right: 1em;
+	margin-left: 2em;
+	align-items: flex-start;
+}
+
+.cost-text{
+	width: 90vw;
+}
+
+
+.cost-image{
+	margin-left: 0;
+	width: 90vw;
+	margin-top: 3em;
+}
+
+
+footer{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.contact-details-footer{
+	display: flex;
+	align-items: center;
+}
+
+.logo{
+	margin-bottom: 1em;
+}
+
+.contact-details-footer{
+	margin-bottom: 1em;
+}
+
+.google-reviews{
+	margin-bottom: 1em;
+}
+
 }
