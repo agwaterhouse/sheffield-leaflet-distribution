@@ -107,15 +107,6 @@ display: flex;
 	padding-right: 5px;
 }
 
-.email:hover svg{
-
-fill: red;
-}
-
-.email:hover a{
-
-color: red;
-}
 
 .scroll{
 	display: flex;
@@ -213,6 +204,7 @@ footer svg.item{
 
 .email, .mobile{
 	display: flex;
+	align-items: center;
 }
 
 .email-hover:{
