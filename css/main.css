@@ -173,6 +173,7 @@ margin-left: 2em;
 
 .reviews h2{
 	color:#d8727f;
+	margin-bottom: 1em;
 }
 
 .reviews img{
@@ -206,27 +207,33 @@ footer svg.item{
 	align-items: center;
 }
 
+.email-hover:{
+	fill: black;
+	color: black;
+}
 @media only screen and (max-width: 800px) {
 
 .gps-tracked{
-	display: flex;
-	flex-direction: column;
-	text-align: left;
-	margin-right: 1em;
-	margin-left: 2em;
+    display: flex;
+    text-align: left;
+    margin-right: 2em;
+    margin-left: 2em;
+    align-items: flex-start;
 	align-items: flex-start;
 	flex-direction: column-reverse;
 }
 
 .gps-text{
-	width: 90vw;
+	width: 100%;
 }
 
 
 .gps-image{
 	margin-left: 0;
-	width: 90vw;
+	width: 100%;
+	margin-right: 2em;
 	margin-top: 3em;
+	margin-bottom: 1em;s
 }
 
 
@@ -234,20 +241,22 @@ footer svg.item{
 	display: flex;
 	flex-direction: column;
 	text-align: left;
-	margin-right: 1em;
+	margin-right: 2em;
 	margin-left: 2em;
 	align-items: flex-start;
 }
 
 .cost-text{
-	width: 90vw;
+	width: 100%;
 }
 
 
 .cost-image{
 	margin-left: 0;
-	width: 90vw;
+	width: 100%;
+	margin-right: 2em;
 	margin-top: 3em;
+	margin-bottom: 1em;
 }
 
 
@@ -277,6 +286,35 @@ footer{
 .hero-text{
 	margin-left: 3em;
 	margin-top: 10vh;
+	font-size: 0.8rem;
+}
+
+.hero-contact-details{
+
+	margin-left: 2em;
+	margin-right: 2px;
+	font-size: 1em;
+}
+
+.phone-item{
+	padding: 0;
+	margin-right: 0;
+}
+
+.email{
+	margin-right: 1em;
+}
+
+.scroll{
+	height: 25vh;
+}
+
+.footer-email-item{
+	width: 2.5em;
+}
+
+.footer-mobile-item{
+	width: 2.5em;
 }
 
 }
