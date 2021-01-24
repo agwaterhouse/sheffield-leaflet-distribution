@@ -114,6 +114,7 @@ display: flex;
 .scroll{
 	display: flex;
 	align-items: center;
+	font-size: 1.3em;
 }
 
 
@@ -322,6 +323,10 @@ footer{
 
 .scroll{
 	height: 25vh;
+}
+
+.scroll a {
+	font-weight: bold;
 }
 
 .footer-email-item{
