@@ -277,15 +277,15 @@ footer{
 }
 
 .logo{
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
 }
 
 .contact-details-footer{
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
 }
 
 .google-reviews{
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
 }
 
 .hero-text{
@@ -334,6 +334,16 @@ footer{
 
 .footer-mobile-item{
 	width: 2.5em;
+}
+
+
+.reviews img{
+width: 16em;
+}
+
+.reviews-text{
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
 }
