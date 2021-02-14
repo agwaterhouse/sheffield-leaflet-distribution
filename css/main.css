@@ -7,8 +7,6 @@ html {
 
 
 
-
-
 .margin-bottom5{
 	margin-bottom: 5px;
 }
@@ -216,10 +214,51 @@ footer svg.item{
 	align-items: center;
 }
 
-.email-hover:{
-	fill: black;
-	color: black;
+
+.email:hover a{
+	color: #d8727f;
 }
+
+.email:hover svg{
+	fill: #d8727f;
+}
+
+
+
+.mobile:hover a{
+	color: #d8727f;
+}
+
+.mobile:hover svg{
+	fill: #d8727f;
+
+}
+
+
+.scroll:hover a{
+	color: #d8727f;
+}
+
+.scroll:hover svg{
+	fill: #d8727f;
+
+}
+
+
+
+
+
+
+svg .email:hover{
+	fill: red;
+}
+
+a .email:hover{
+	color: red;
+}
+
+
+
 @media only screen and (max-width: 800px) {
 
 .gps-tracked{
